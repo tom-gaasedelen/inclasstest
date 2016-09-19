@@ -20,6 +20,6 @@ $('body').click(function(){
 
 $('.circle img').click(function(){
 
-  $('body').append("<div class='.circle'></div>");
+  $('.circle').append('<img src = "myFace.png" />');
 
 })
